@@ -638,11 +638,7 @@ onMounted(async () => {
           <button class="primary-btn" :disabled="loading">Kirish</button>
         </form>
 
-        <div class="demo-box">
-          <b>Demo loginlar:</b>
-          <span>director / director123</span>
-          <span>admin / admin123</span>
-        </div>
+
         <p v-if="error" class="error-msg">{{ error }}</p>
       </div>
     </section>
