@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onMounted, reactive, ref } from 'vue'
 
-const API_BASE = (import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api').replace(/\/$/, '')
+const API_BASE = (import.meta.env.VITE_API_URL || 'https://maktab-davomat-production.up.railway.app/api').replace(/\/$/, '')
 
 const token = ref(localStorage.getItem('access') || '')
 const refresh = ref(localStorage.getItem('refresh') || '')
